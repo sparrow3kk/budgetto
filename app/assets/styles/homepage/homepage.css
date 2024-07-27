@@ -1,0 +1,234 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.home-content .header--home-content {
+  display: flex;
+  justify-content: center;
+  background-color: #f4f4f4;
+  min-height: 200px;
+  align-items: center;
+}
+
+.home-content .header--home-content p {
+  font-size: 18px;
+  color: #000;
+  margin: 30px;
+  font-weight: 500;
+}
+
+.home-content .header--home-content p span {
+  color: #6c34ff;
+  font-weight: 600;
+}
+
+.header--first-section {
+  padding: 50px;
+}
+
+.section-content img {
+  transition: filter 1s;
+}
+
+.section-content .lazy-img {
+  filter: blur(20px);
+}
+
+.header--first-section .content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header--first-section .content p {
+  text-align: center;
+}
+
+.header--first-section .content p span {
+  color: #6c34ff;
+  font-weight: 600;
+}
+
+/* second section */
+.header--second-section {
+  padding: 50px;
+  background-color: #f4f4f4;
+}
+
+.header--second-section .content {
+  display: flex;
+  justify-content: space-around;
+}
+
+.header--second-section.content .left-section h1 {
+  color: #6c34ff;
+  font-size: 18px;
+}
+
+.header--second-section.content .left-section span {
+  color: #6c34ff;
+  font-weight: 600;
+}
+
+.header--second-section.content .left-section p {
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+.header--second-section.content .left-section ul {
+  list-style: url("../../images/homepage/list-check.png");
+  padding-left: 30px;
+}
+
+.header--second-section.content .left-section ul li {
+  margin-bottom: 15px;
+  padding-left: 10px;
+}
+
+/* third section */
+.header--third-section {
+  padding: 50px;
+}
+
+.header--third-section .content {
+  display: flex;
+  justify-content: space-around;
+}
+
+.header--third-section.content .right-section h1 {
+  color: #6c34ff;
+  font-size: 18px;
+}
+
+.header--third-section.content .right-section span {
+  color: #6c34ff;
+  font-weight: 600;
+}
+
+.header--third-section.content .right-section p {
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+.header--third-section.content .right-section ul {
+  list-style: url("../../images/homepage/list-check.png");
+  padding-left: 30px;
+}
+
+.header--third-section.content .right-section ul li {
+  margin-bottom: 15px;
+  padding-left: 10px;
+}
+
+/* fourth section */
+.header--fourth-section {
+  padding: 50px;
+  background-color: #f4f4f4;
+}
+
+.header--fourth-section .content {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.header--fourth-section.content .right-section h1 {
+  color: #6c34ff;
+  font-size: 18px;
+}
+
+.header--fourth-section.content .right-section span {
+  color: #6c34ff;
+  font-weight: 600;
+}
+
+.header--fourth-section.content .right-section p {
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+.header--fourth-section.content .right-section ul {
+  list-style: url("../../images/homepage/list-check.png");
+  padding-left: 30px;
+}
+
+.header--fourth-section.content .right-section ul li {
+  margin-bottom: 15px;
+  padding-left: 10px;
+}
+
+/* fifth section */
+.header--fifth-section {
+  display: block;
+  padding: 50px;
+}
+
+.header--fifth-section .content {
+  text-align: center;
+}
+
+.header--fifth-section .content .first-section span {
+  color: #6c34ff;
+  font-weight: 600;
+}
+
+.header--fifth-section .content .last-section {
+  padding: 50px;
+}
+
+/* six section */
+.header--six-section .header--six-section.content {
+  display: flex;
+  justify-content: space-around;
+  padding: 60px;
+  background-color: #f4f4f4;
+}
+
+.header--six-section .header--six-section.content ul {
+  list-style: none;
+}
+
+.header--six-section .header--six-section.content ul li {
+  padding-bottom: 10px;
+}
+
+.header--six-section .header--six-section.content p {
+  color: #6c34ff;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.header--six-section .header--six-section.content ul li a {
+  text-decoration: none;
+  color: #000;
+  font-weight: 500;
+}
+
+/* footer */
+.footer {
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+}
+
+.footer div {
+  padding: 20px;
+}
+
+.copyright {
+  margin-bottom: 20px;
+}
+
+.copyright p {
+  text-align: center;
+  font-weight: 500;
+}
+
+.copyright p span {
+  color: #6c34ff;
+}

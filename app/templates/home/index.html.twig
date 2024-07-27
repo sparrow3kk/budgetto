@@ -1,0 +1,134 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 128 128%22><text y=%221.2em%22 font-size=%2296%22>⚫️</text><text y=%221.3em%22 x=%220.2em%22 font-size=%2276%22 fill=%22%23fff%22>sf</text></svg>">
+        {% block stylesheets %}
+            <link href="{{ asset('styles/homepage/homepage.css') }}" rel="stylesheet"/>
+        {% endblock %}
+    </head>
+
+    {% block body %}
+        {{ include('navbar.html.twig') }}
+        <body>
+            <main class="home-content">
+                    <section class="header--home-content">
+                        <div>
+                            <p>.Budgetto - Your <span>Ultimate</span> Financial Companion</p>
+                        </div>
+                    </section>
+                <section class="header--first-section section-content">
+                    <div class='header--first-section content'>                    
+                        <img class="lazy-img" src="{{ asset('images/homepage/first-section-image-small.png') }}" alt="first-section-image" data-src="{{ asset('images/homepage/first-section-image.png') }}" width="591" height="340">
+                        <p>.Budgetto is a revolutionary app designed to <span>simplify</span> and <span>enhance</span></br>your financial management experience.</br></br>
+                            Whether you're a seasoned pro or just starting your journey towards financial wellness, .Budgetto offers a range of features to help you take control of your finances with ease.
+                        </p>
+                    </div>
+                </section>
+                <section class="header--second-section section-content">
+                    <div class='header--second-section content'>
+                        <div class='left-section'>
+                            <h1>Intuitive Budgeting Tools</h1>
+                            <p>With .Budgetto, you can effortlessly <span>create</span> and <span>track</span> your budget</br>in a user-friendly interface.</p>
+                            <ul>
+                                <li>set spending limits,</li>
+                                <li>categorize expenses and incomes</li>
+                                <li>monitor your progress in real-time.</li>
+                            </ul>
+                        </div>
+                        <div class='right-section'>
+                            {# <img class="lazy-img" src="{{ asset('images/homepage/second-section-image-small.png') }}" {{ stimulus_controller('symfony/ux-lazy-image/lazy-image', { src: asset('images/homepage/second-section-image.png') }) }} width="500" height="300">                         #}
+                            <img class="lazy-img" src="{{ asset('images/homepage/second-section-image-small.png') }}" alt="second-section-image" data-src="{{ asset('images/homepage/second-section-image.png') }}" width="653" height="386">
+                        </div>
+                    </div>
+                </section>
+                <section class="header--third-section section-content">
+                    <div class='header--third-section content'>
+                        <div class='left-section'>
+                            <img class="lazy-img" src="{{ asset('images/homepage/third-section-image-small.png') }}" alt="third-section-image" data-src="{{ asset('images/homepage/third-section-image.png') }}" width="365" height="440">
+                            {# <img class="lazy-img" src="{{ asset('images/homepage/third-section-image-small.png') }}" alt="third-section-image" data-src="{{ asset('images/homepage/third-section-image.png') }}"> #}
+                        </div>
+                        <div class='right-section'>
+                            <h1>Customizable Reports</h1>
+                            <p>Gain deeper insights into your financial health with <span>customizable reports</span> and</br><span>visualizations.</span></p>
+                            <ul>
+                                <li>analyze your spending patterns</li>
+                                <li>identify trends</li>
+                                <li>make adjustments to improve your financial well-being</li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+                <section class="header--fourth-section section-content">
+                    <div class='header--fourth-section content'>                        
+                        <div class='right-section'>
+                            <h1>Goal Setting and Tracking</h1>
+                            <p>Whether you're <span>saving</span> for a vacation, a new car, or an emergency fund,</br>.Budgetto <span>helps</span> you <span>set</span> achievable financial goals. <span>Track</span> your progress</br>over time and <span>celebrate</span> your milestones along the way.</p>
+                        </div>
+                        <div class='left-section'>                            
+                            <img class="lazy-img" src="{{ asset('images/homepage/fourth-section-image-small.png') }}" alt="fourth-section-image" data-src="{{ asset('images/homepage/fourth-section-image.png') }}" width="385" head="460">
+                        </div>
+                    </div>
+                </section>
+                <section class="header--fifth-section section-content">
+                    <div class='header--fifth-section content'>                        
+                        <div class='first-section'>
+                            <p>Experience the <span>power</span> of smart financial management with .Budgetto. 
+                               <span>Take control</span> of your finances, <span>achieve</span> your goals, and</br><span>pave</span> the way towards a brighter financial future.</br>
+                               <span>Start</span> using .Budgetto today and embark on your journey to financial success!
+                            </p>
+                        </div>
+                        <div class='last-section'>
+                            <img class="lazy-img" src="{{ asset('images/homepage/fifth-section-image-small.png') }}" alt="fifth-section-image" data-src="{{ asset('images/homepage/fifth-section-image.png') }}" width="560" height="400">
+                            {# <img class="lazy-img" src="{{ asset('images/homepage/fifth-section-image-small.png') }}" {{ stimulus_controller('symfony/ux-lazy-image/lazy-image', { src: asset('images/homepage/fifth-section-image.png') }) }} width="500" height="300">                         #}
+                        </div>
+                    </div>
+                </section>
+                <section class="header--six-section">
+                    <div class='header--six-section content'>                        
+                        <div class='first-section'>
+                            <p>About</p>
+                            <ul>
+                                <li><a href="#">Blog</a></li>
+                                <li><a href="#">Contact</a></li>
+                                <li><a href="#">FAQ</a></li>
+                            </ul>
+                        </div>
+                        <div class='second-section'>
+                            <p>Carrier</p>
+                            <ul>
+                                <li><a href="#">Developers</a></li>
+                                <li><a href="#">Jobs</a></li>
+                                <li><a href="#">Press Kit</a></li>
+                            </ul>
+                        </div>
+                        <div class='third-section'>
+                            <p>Additionals</p>
+                            <ul>
+                                <li><a href="#">Tutorials and manuals</a></li>
+                                <li><a href="#">Support</a></li>
+                                <li><a href="#">FAQ</a></li>
+                                <li><a href="#">Terms</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>                   
+            </main>
+            <footer class='footer'>
+                <div class='fb-social'>
+                    <a href='#'><img src='{{ asset('images/homepage/logo-facebook.png') }}'></a>
+                </div>
+                <div class='instagram-social'>
+                    <a href='#'><img src='{{ asset('images/homepage/logo-instagram.png') }}'></a>
+                </div>
+                <div class='linkedin-social'>
+                    <a href='#'><img src='{{ asset('images/homepage/logo-linkedin.png') }}'></a>
+                </div>                
+            </footer>
+            <div class='copyright'>
+                <p>Copyright © 2024 <span>.Budgetto</span> Sp. z o.o. </p>
+            </div>
+        </body>
+    {% endblock %}
+</html>
